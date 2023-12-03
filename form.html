@@ -6,8 +6,12 @@
     <title>Login Page</title>
     <style>
        body{
-        background-color: aqua;
+        background-color: white;
         display: flex;
+        position: absolute;
+        align-items: center;
+        padding: 50px 60px 70px 80px;
+        background-image: url(./murugan.jpg);
     
        }
        #h1{
@@ -16,20 +20,23 @@
        .h2{
         color: red;
        }
+    
+
     </style>
 </head>
 <body>
     <center>
     <form action="C:\Users\ARUN\Desktop\tags\html\nav.html">
-        <fieldset>
-           <ceter>
-             <legend><h3>Login</h3></legend><br><br>
-            </ceter>
+        <fieldset> 
+             <legend>
+            <h3>Login</h3>
+        </legend><br><br>
           <label id="h1" for="username">username</label>
             <input type="text"  id="username"><br><br>
-            <label for="password">password</label>
+            <label id="h1" for="password">password</label>
             <input type="text" id="password"><br><br>
-            <button class="h2">submit</button>
+            <button class="h2">
+                <a href="./nav.html">submit</a></button>
             <button class="h2">cancel</button>
         </fieldset>
     </form>
