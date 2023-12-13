@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     
+           
+        
+        .containers{
+            height: 50px;
+            width: 50px;
+            background-color: chartreuse;
+            color: black;
+            margin:10px;
+            transition-duration: 3s;
+        }
+        .containers:hover{
+            width: 350px;
+        }
+        #box1{
+            transition-timing-function: linear;
+        }
+        #box2{
+            transition-timing-function: ease;
+        }
+        #box3{
+            transition-timing-function:ease-in;
+        }
+        #box4{
+            transition-timing-function: ease-out;
+        }
+        #box5{
+            transition-timing-function: ease-in-out;
+        }
+      
+    </style>
+</head>
+<body>
+
+    <div class="containers" id="box1">linear</div>
+    <div class="containers" id="box2">ease</div>
+    <div class="containers" id="box3">ease-in</div>
+    <div class="containers" id="box4">ease-out</div>
+    <div class="containers" id="box5">ease-in-out</div>
+    <div class="containers" id="box6">cubic-beizer</div>
+</body>
+</html>
